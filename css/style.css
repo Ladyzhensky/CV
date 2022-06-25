@@ -1,0 +1,101 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(177, 169, 169);
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.profession {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px;
+ 
+}
+.data .data .semi-bold {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px;
+ 
+}
+.resume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+  border: 2px solid rgb(46, 44, 44)
+}
+
+.resume .resume_left {
+  width: 280px;
+  background: #e6ddbc;
+  border-right: 2px solid rgb(46, 44, 44)
+}
+
+
+.resume .resume_left .resume_photo {
+    background-image: url(../photo.jpg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 190px;
+    background-position: center center;
+    background-size: contain;
+    margin: 20px auto 0;
+}
+
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+
+.resume .title {
+  margin-bottom: 20px;
+}
+
+
+.resume .resume_item {
+  padding: 25px 0;
+  border-bottom: 2px solid rgb(46, 44, 44)
+}
+
+.resume .resume_right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.skills {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
